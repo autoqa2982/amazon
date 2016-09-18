@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite PUBLIC "SYSTEM" "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="core.framework.TestListener"/>
+    </listeners>
+    <test name="AF_Order_BO_Reports">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC005_AF_Order_BO_Reports"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AF_Verify_Employee_Information">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC001_AF_Verify_Employee_Information"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AF_Verify_Employee_Information_Updated_Successfully">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC002_AF_Verify_Employee_Details_Revised_Post_Updation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AF_Perform_and_Verify_Employee_Contribution">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC003_AF_Process_and_Verify_Employee_Contribution"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AF_Delete_Pending_Employee_Contribution">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC004_AF_Delete_Pending_Employee_Contribution"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AF_Verify_Order_BO_Reports">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC006_AF_Verify_BO_Reports"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AF_Verify_Compliance_5500">
+        <classes>
+            <class name="app.psc.heritagetestcases.americanfund.americanfundtestcases">
+                <methods>
+                    <include name="TC007_AF_Verify_Compliance"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
